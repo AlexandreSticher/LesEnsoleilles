@@ -13,7 +13,9 @@
 x64/
 [Bb]in/
 [Oo]bj/
-.vs/
+*.vs/
+*[Pp]roperties/
+*[Rr]esources/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
