@@ -13,9 +13,18 @@
 x64/
 [Bb]in/
 [Oo]bj/
+<<<<<<< HEAD
 *.vs/
 *[Pp]roperties/
 *[Rr]esources/
+=======
+<<<<<<< HEAD
+*.vs/
+=======
+.vs/
+
+>>>>>>> ca249bf8925bf2d8874383a5942f1ca2fbb70201
+>>>>>>> 9e6dee06b8694777d67d367c21a8724ecbd3e345
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
