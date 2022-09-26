@@ -13,7 +13,12 @@
 x64/
 [Bb]in/
 [Oo]bj/
+<<<<<<< HEAD
 *.vs/
+=======
+.vs/
+
+>>>>>>> ca249bf8925bf2d8874383a5942f1ca2fbb70201
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
