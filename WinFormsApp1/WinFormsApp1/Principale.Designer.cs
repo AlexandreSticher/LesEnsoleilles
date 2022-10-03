@@ -34,6 +34,7 @@
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
+<<<<<<< HEAD
             this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel7 = new System.Windows.Forms.FlowLayoutPanel();
@@ -55,6 +56,8 @@
             this.flowLayoutPanel23 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel24 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel25 = new System.Windows.Forms.FlowLayoutPanel();
+=======
+>>>>>>> 2447ece (Question)
             ((System.ComponentModel.ISupportInitialize)(this.pctDe)).BeginInit();
             this.SuspendLayout();
             // 
@@ -93,18 +96,27 @@
             // 
             // flowLayoutPanel3
             // 
+<<<<<<< HEAD
             this.flowLayoutPanel3.Location = new System.Drawing.Point(836, 13);
+=======
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(424, 13);
+>>>>>>> 2447ece (Question)
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
             this.flowLayoutPanel3.Size = new System.Drawing.Size(200, 100);
             this.flowLayoutPanel3.TabIndex = 5;
             // 
             // flowLayoutPanel4
             // 
+<<<<<<< HEAD
             this.flowLayoutPanel4.Location = new System.Drawing.Point(630, 13);
+=======
+            this.flowLayoutPanel4.Location = new System.Drawing.Point(639, 13);
+>>>>>>> 2447ece (Question)
             this.flowLayoutPanel4.Name = "flowLayoutPanel4";
             this.flowLayoutPanel4.Size = new System.Drawing.Size(200, 100);
             this.flowLayoutPanel4.TabIndex = 6;
             // 
+<<<<<<< HEAD
             // flowLayoutPanel5
             // 
             this.flowLayoutPanel5.Location = new System.Drawing.Point(12, 119);
@@ -252,11 +264,14 @@
             this.flowLayoutPanel25.Size = new System.Drawing.Size(200, 100);
             this.flowLayoutPanel25.TabIndex = 27;
             // 
+=======
+>>>>>>> 2447ece (Question)
             // Principale
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1216, 571);
+<<<<<<< HEAD
             this.Controls.Add(this.flowLayoutPanel25);
             this.Controls.Add(this.flowLayoutPanel24);
             this.Controls.Add(this.flowLayoutPanel23);
@@ -278,6 +293,8 @@
             this.Controls.Add(this.flowLayoutPanel7);
             this.Controls.Add(this.flowLayoutPanel6);
             this.Controls.Add(this.flowLayoutPanel5);
+=======
+>>>>>>> 2447ece (Question)
             this.Controls.Add(this.flowLayoutPanel4);
             this.Controls.Add(this.flowLayoutPanel3);
             this.Controls.Add(this.flowLayoutPanel2);
@@ -299,6 +316,7 @@
         private FlowLayoutPanel flowLayoutPanel2;
         private FlowLayoutPanel flowLayoutPanel3;
         private FlowLayoutPanel flowLayoutPanel4;
+<<<<<<< HEAD
         private FlowLayoutPanel flowLayoutPanel5;
         private FlowLayoutPanel flowLayoutPanel6;
         private FlowLayoutPanel flowLayoutPanel7;
@@ -320,5 +338,7 @@
         private FlowLayoutPanel flowLayoutPanel23;
         private FlowLayoutPanel flowLayoutPanel24;
         private FlowLayoutPanel flowLayoutPanel25;
+=======
+>>>>>>> 2447ece (Question)
     }
 }
