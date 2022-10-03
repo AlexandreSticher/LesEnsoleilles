@@ -37,9 +37,9 @@
             this.btnQuitter = new System.Windows.Forms.Button();
             this.btnStart = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.lblJoueur1 = new System.Windows.Forms.Label();
             this.lblJoueur4 = new System.Windows.Forms.Label();
             this.lblJoueur3 = new System.Windows.Forms.Label();
@@ -133,6 +133,7 @@
             this.btnStart.TabIndex = 4;
             this.btnStart.Text = "Start";
             this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // textBox1
             // 
@@ -141,12 +142,12 @@
             this.textBox1.Size = new System.Drawing.Size(114, 23);
             this.textBox1.TabIndex = 5;
             // 
-            // textBox2
+            // textBox4
             // 
-            this.textBox2.Location = new System.Drawing.Point(552, 195);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(114, 23);
-            this.textBox2.TabIndex = 6;
+            this.textBox4.Location = new System.Drawing.Point(552, 195);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(114, 23);
+            this.textBox4.TabIndex = 6;
             // 
             // textBox3
             // 
@@ -155,12 +156,12 @@
             this.textBox3.Size = new System.Drawing.Size(114, 23);
             this.textBox3.TabIndex = 7;
             // 
-            // textBox4
+            // textBox2
             // 
-            this.textBox4.Location = new System.Drawing.Point(552, 92);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(114, 23);
-            this.textBox4.TabIndex = 8;
+            this.textBox2.Location = new System.Drawing.Point(552, 92);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(114, 23);
+            this.textBox2.TabIndex = 8;
             // 
             // lblJoueur1
             // 
@@ -259,9 +260,9 @@
             this.Controls.Add(this.lblJoueur3);
             this.Controls.Add(this.lblJoueur4);
             this.Controls.Add(this.lblJoueur1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.btnQuitter);
@@ -270,6 +271,7 @@
             this.Controls.Add(this.lblOptions);
             this.Name = "Joueurs";
             this.Text = "Enregistrement des joueurs";
+            this.Load += new System.EventHandler(this.Joueurs_Load);
             this.lsbNbjoueurs.ResumeLayout(false);
             this.lsbNbjoueurs.PerformLayout();
             this.ResumeLayout(false);
@@ -288,9 +290,9 @@
         private Button btnQuitter;
         private Button btnStart;
         private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
         private TextBox textBox4;
+        private TextBox textBox3;
+        private TextBox textBox2;
         private Label lblJoueur1;
         private Label lblJoueur4;
         private Label lblJoueur3;

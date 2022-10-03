@@ -13,9 +13,9 @@ namespace WinFormsApp1
 {
     public partial class Principale : Form
     {
-
+        List<JoueurClasse> joueurs;
         Random rnd = new Random();
-        public Principale()
+        public Principale(string j1,string j2,string j3,string j4)
         {
             InitializeComponent();
         }
@@ -48,6 +48,11 @@ namespace WinFormsApp1
             {
                 pctDe.Image = Properties.Resources.DeN6;
             }
+        }
+
+        private void Principale_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
