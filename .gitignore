@@ -27,6 +27,8 @@ WinFormsApp1/.vs/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
+*.orig
+*.bak
 *_i.c
 *_p.c
 *_i.h
