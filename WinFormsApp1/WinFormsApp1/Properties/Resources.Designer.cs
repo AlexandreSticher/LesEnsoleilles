@@ -63,6 +63,16 @@ namespace WinFormsApp1.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Alessandro_Volta {
+            get {
+                object obj = ResourceManager.GetObject("Alessandro_Volta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap capitale {
             get {
                 object obj = ResourceManager.GetObject("capitale", resourceCulture);
@@ -163,6 +173,16 @@ namespace WinFormsApp1.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap drapeau_gb {
+            get {
+                object obj = ResourceManager.GetObject("drapeau-gb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Gutenberg {
             get {
                 object obj = ResourceManager.GetObject("Gutenberg", resourceCulture);
@@ -216,6 +236,16 @@ namespace WinFormsApp1.Properties {
         internal static System.Drawing.Bitmap rose {
             get {
                 object obj = ResourceManager.GetObject("rose", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap saucisson {
+            get {
+                object obj = ResourceManager.GetObject("saucisson", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

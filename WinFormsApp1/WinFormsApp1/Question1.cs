@@ -152,6 +152,50 @@ namespace WinFormsApp1
 
                     correctAnswer = "Rose";
                     break;
+
+                case 12:
+                    lblQuestion.Text = "Quel animal est l’emblème du Royaume Uni ?";
+
+                    pictureBoxQuestion.Image = Properties.Resources.drapeau_gb;
+                    rdbResponse1.Text = "La Pie";
+                    rdbResponse2.Text = "Le lion";
+                    rdbResponse3.Text = "Le Castor";
+
+                    correctAnswer = "Le lion";
+                    break;
+
+                case 13:
+                    lblQuestion.Text = "Qui est l’inventeur de la pile électrique ?";
+
+                    pictureBoxQuestion.Image = Properties.Resources.Alessandro_Volta;
+                    rdbResponse1.Text = "Peter Duracell";
+                    rdbResponse2.Text = "Regiani Varta";
+                    rdbResponse3.Text = "Alessandro Volta";
+
+                    correctAnswer = "Alessandro Volta";
+                    break;
+
+                case 14:
+                    lblQuestion.Text = "De quelle région est originaire le saucisson brioché ?";
+
+                    pictureBoxQuestion.Image = Properties.Resources.Alessandro_Volta;
+                    rdbResponse1.Text = "Rhône-Alpes";
+                    rdbResponse2.Text = "Ile-de-France";
+                    rdbResponse3.Text = "Alsace";
+
+                    correctAnswer = "Rhône-Alpes";
+                    break;
+
+                case 15:
+                    lblQuestion.Text = "De quelle région est originaire le saucisson brioché ?";
+
+                    pictureBoxQuestion.Image = Properties.Resources.saucisson;
+                    rdbResponse1.Text = "Rhône-Alpes";
+                    rdbResponse2.Text = "Ile-de-France";
+                    rdbResponse3.Text = "Alsace";
+
+                    correctAnswer = "Rhône-Alpes";
+                    break;
             }
         }
 

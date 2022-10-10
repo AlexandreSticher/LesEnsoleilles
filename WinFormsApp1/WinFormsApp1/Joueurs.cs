@@ -102,10 +102,5 @@ namespace WinFormsApp1
            
           
         }
-
-        private void Joueurs_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
