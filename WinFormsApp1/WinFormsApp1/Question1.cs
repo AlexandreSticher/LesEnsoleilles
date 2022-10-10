@@ -196,6 +196,237 @@ namespace WinFormsApp1
 
                     correctAnswer = "Rhône-Alpes";
                     break;
+
+                case 16:
+                    lblQuestion.Text = "Quel surnom est souvent donné au footballeur Karim Benzema ?";
+
+                    pictureBoxQuestion.Image = Properties.Resources.ben;
+                    rdbResponse1.Text = "Les pieds d'Or";
+                    rdbResponse2.Text = "Benzebut";
+                    rdbResponse3.Text = "Ben le Terrible";
+
+                    correctAnswer = "Benzebut";
+                    break;
+
+                case 17:
+                    lblQuestion.Text = "Combien de secondes constituent une journée ?";
+
+                    pictureBoxQuestion.Image = Properties.Resources.temps;
+                    rdbResponse1.Text = "21600";
+                    rdbResponse2.Text = "86400";
+                    rdbResponse3.Text = "604800";
+
+                    correctAnswer = "86400";
+                    break;
+
+                case 18:
+                    lblQuestion.Text = "Quelle est le nom de ces deux personnages ?";
+
+                    pictureBoxQuestion.Image = Properties.Resources.corneille;
+                    rdbResponse1.Text = "Pouf et Pafout";
+                    rdbResponse2.Text = "Corneille et Bernie";
+                    rdbResponse3.Text = "Tom et Jerry";
+
+                    correctAnswer = "Corneille et Bernie";
+                    break;
+
+                case 19:
+                    lblQuestion.Text = "En quelle année le paquebot Titanic a-t-il sombré ?";
+
+                    pictureBoxQuestion.Image = Properties.Resources.titanic;
+                    rdbResponse1.Text = "1912";
+                    rdbResponse2.Text = "1923";
+                    rdbResponse3.Text = "1934";
+
+                    correctAnswer = "1912";
+                    break;
+
+                case 20:
+                    lblQuestion.Text = "Quel animal est aussi appelé goupil ?";
+
+                    pictureBoxQuestion.Image = Properties.Resources.goupil;
+                    rdbResponse1.Text = "Un escargot";
+                    rdbResponse2.Text = "Un écurueil";
+                    rdbResponse3.Text = "Un renard";
+
+                    correctAnswer = "Un renard";
+                    break;
+
+                case 21:
+                    lblQuestion.Text = "Quelle est la monnaie du Vietnam ?";
+
+                    pictureBoxQuestion.Image = Properties.Resources.dong;
+                    rdbResponse1.Text = "Dong";
+                    rdbResponse2.Text = "Ding";
+                    rdbResponse3.Text = "Deng";
+
+                    correctAnswer = "Dong";
+                    break;
+
+                case 22:
+                    lblQuestion.Text = "Que tient la Statue de la Liberté dans sa main droite ?";
+
+                    pictureBoxQuestion.Image = Properties.Resources.status;
+                    rdbResponse1.Text = "Un flambeau";
+                    rdbResponse2.Text = "Un Livre";
+                    rdbResponse3.Text = "Une épée";
+
+                    correctAnswer = "Dong";
+                    break;
+
+                case 23:
+                    lblQuestion.Text = "Quelle est la part d’eau douce sur Terre ?";
+
+                    pictureBoxQuestion.Image = Properties.Resources.eau;
+                    rdbResponse1.Text = "Moins de 5%";
+                    rdbResponse2.Text = "40%";
+                    rdbResponse3.Text = "65%";
+
+                    correctAnswer = "Moins de 5%";
+                    break;
+
+                case 24:
+                    lblQuestion.Text = "Quel est le plus long fleuve au monde ?";
+
+                    pictureBoxQuestion.Image = Properties.Resources.Amazone;
+                    rdbResponse1.Text = "Le Nil";
+                    rdbResponse2.Text = "L'Amazone";
+                    rdbResponse3.Text = "Le Missisippi";
+
+                    correctAnswer = "Moins de 5%";
+                    break;
+
+                case 25:
+                    lblQuestion.Text = "Sous quel nom est plus connu l'acide désoxyribonucléique ?";
+
+                    pictureBoxQuestion.Image = Properties.Resources.adn;
+                    rdbResponse1.Text = "Le doliprane";
+                    rdbResponse2.Text = "L'ADN";
+                    rdbResponse3.Text = "Le dentifrice";
+
+                    correctAnswer = "L'ADN";
+                    break;
+
+                case 26:
+                    lblQuestion.Text = "Dans quel pays a débuté le Tour de France 2022 ?";
+
+                    pictureBoxQuestion.Image = Properties.Resources.tour;
+                    rdbResponse1.Text = "Danemark";
+                    rdbResponse2.Text = "Maroc";
+                    rdbResponse3.Text = "Espagne";
+
+                    correctAnswer = "Danemark";
+                    break;
+
+                case 27:
+                    lblQuestion.Text = "Quel est le nom de ce type de dinosaure ?";
+
+                    pictureBoxQuestion.Image = Properties.Resources.stego;
+                    rdbResponse1.Text = "Platéosaure";
+                    rdbResponse2.Text = "Tricératops";
+                    rdbResponse3.Text = "Stégosaure";
+
+                    correctAnswer = "Stégosaure";
+                    break;
+
+                case 28:
+                    lblQuestion.Text = "Quel est le nom de ce poisson présent en Méditerranée ?";
+
+                    pictureBoxQuestion.Image = Properties.Resources.poisson;
+                    rdbResponse1.Text = "Une castagnole rouge";
+                    rdbResponse2.Text = "Un poisson tigre";
+                    rdbResponse3.Text = "Une rascasse volante";
+
+                    correctAnswer = "Une rascasse volante";
+                    break;
+
+                case 29:
+                    lblQuestion.Text = "Quel groupe sanguin est considéré comme donneur univesel ?";
+
+                    pictureBoxQuestion.Image = Properties.Resources.sang;
+                    rdbResponse1.Text = "AB+";
+                    rdbResponse2.Text = "O-";
+                    rdbResponse3.Text = "O+";
+
+                    correctAnswer = "O-";
+                    break;
+
+                case 30:
+                    lblQuestion.Text = "Quel fruit est aussi appelé “groseille de Chine” ?";
+
+                    pictureBoxQuestion.Image = Properties.Resources.Prune;
+                    rdbResponse1.Text = "Le kiwi";
+                    rdbResponse2.Text = "La mangue";
+                    rdbResponse3.Text = "La prune";
+
+                    correctAnswer = "Le kiwi";
+                    break;
+
+                case 31:
+                    lblQuestion.Text = "Quel est l'utilité de cette ustensile ?";
+
+                    pictureBoxQuestion.Image = Properties.Resources.ps;
+                    rdbResponse1.Text = "Concasser des noix";
+                    rdbResponse2.Text = "Attendrisseur à viande";
+                    rdbResponse3.Text = "Battre les oeufs";
+
+                    correctAnswer = "Attendrisseur à viande";
+                    break;
+
+                case 32:
+                    lblQuestion.Text = "Comment s'appellait le Manchester United à la fondation";
+
+                    pictureBoxQuestion.Image = Properties.Resources.man;
+                    rdbResponse1.Text = "West Gorton";
+                    rdbResponse2.Text = "Newton Heath";
+                    rdbResponse3.Text = "St. Mark's";
+
+                    correctAnswer = "Newton Heath";
+                    break;
+
+                case 33:
+                    lblQuestion.Text = "Quel est le résultat de cette opération : 278 + 146 + 23";
+
+                    pictureBoxQuestion.Image = Properties.Resources.calcul;
+                    rdbResponse1.Text = "437";
+                    rdbResponse2.Text = "447";
+                    rdbResponse3.Text = "450";
+
+                    correctAnswer = "447";
+                    break;
+
+                case 34:
+                    lblQuestion.Text = "Quel fleuve traverse la ville hongroise de Budapest ?";
+
+                    pictureBoxQuestion.Image = Properties.Resources.danube;  
+                    rdbResponse1.Text = "Le Tibre";
+                    rdbResponse2.Text = "Le Danube";
+                    rdbResponse3.Text = "L'Elbe";
+
+                    correctAnswer = "Le Danube";
+                    break;
+
+                case 35:
+                    lblQuestion.Text = "En quelle année est arrivé le cinéma parlant ?";
+
+                    pictureBoxQuestion.Image = Properties.Resources.cinema;
+                    rdbResponse1.Text = "1921";
+                    rdbResponse2.Text = "1927";
+                    rdbResponse3.Text = "1934";
+
+                    correctAnswer = "1927";
+                    break;
+
+                case 36:
+                    lblQuestion.Text = "Quel fromage est familièrement appelé “calendos” ?";
+
+                    pictureBoxQuestion.Image = Properties.Resources.fromage;
+                    rdbResponse1.Text = "Le Coulommiers";
+                    rdbResponse2.Text = "La Mimolette";
+                    rdbResponse3.Text = "Le Camembert";
+
+                    correctAnswer = "Le Camembert";
+                    break;
             }
         }
 

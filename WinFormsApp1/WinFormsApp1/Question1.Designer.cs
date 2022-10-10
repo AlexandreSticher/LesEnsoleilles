@@ -104,7 +104,7 @@
             // 
             // pictureBoxQuestion
             // 
-            this.pictureBoxQuestion.Image = global::WinFormsApp1.Properties.Resources.saucisson;
+            this.pictureBoxQuestion.Image = global::WinFormsApp1.Properties.Resources.fromage;
             this.pictureBoxQuestion.Location = new System.Drawing.Point(12, 42);
             this.pictureBoxQuestion.Name = "pictureBoxQuestion";
             this.pictureBoxQuestion.Size = new System.Drawing.Size(328, 336);
